@@ -1,5 +1,8 @@
 # scripts/acoes.py
 
+# ============================================================
+# Bibliotecas necessárias:
+# ============================================================
 import os                        # --> Para manipulação de variáveis de ambiente
 import sys                       # --> Para manipulação de saída e erros
 import time                      # --> Para pausas entre requisições (respeitar limites de API)
