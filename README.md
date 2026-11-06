@@ -330,20 +330,20 @@ streamlit run streamlit/dashboard.py
 
 # 🎯 Principais Conceitos Aplicados
 
-- Engenharia de Dados
-- Inteligência Artificial Generativa
-- Agentes de IA
-- CrewAI
-- LangChain
-- OpenAI
-- Engenharia de Prompt
-- Consumo de APIs
-- Web Scraping
-- Automação de Processos
-- Visualização de Dados
-- Python
-- Streamlit
-- Git e GitHub
+- **Engenharia de Dados** — Coleta, organização e processamento de dados para análise.
+- **Inteligência Artificial Generativa** — Utilização de modelos de IA para gerar respostas e insights.
+- **Agentes de IA** — Agentes especializados que analisam dados e executam tarefas específicas.
+- **CrewAI** — Framework para criação e orquestração dos agentes de IA.
+- **LangChain** — Biblioteca para integração e gerenciamento dos fluxos com modelos de linguagem.
+- **OpenAI** — Modelo de linguagem utilizado para interpretar informações e gerar análises.
+- **Engenharia de Prompt** — Criação de instruções que orientam o comportamento dos agentes de IA.
+- **Consumo de APIs** — Obtenção de dados por meio de serviços e APIs externas.
+- **Web Scraping** — Coleta automatizada de informações disponíveis em páginas da web.
+- **Automação de Processos** — Execução automática das etapas do pipeline de dados.
+- **Visualização de Dados** — Apresentação dos resultados por meio de dashboards e gráficos.
+- **Python** — Linguagem principal utilizada no desenvolvimento do projeto.
+- **Streamlit** — Framework para criação da interface web interativa.
+- **Git e GitHub** — Controle de versão e hospedagem do código-fonte.
 
 ---
 
