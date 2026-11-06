@@ -22,33 +22,20 @@ Este projeto simula esse fluxo de trabalho em uma arquitetura local, aplicando c
 
 # 🛠️ Tecnologias Utilizadas
 
-# 🛠️ Tecnologias Utilizadas
-
 Este projeto foi desenvolvido utilizando tecnologias voltadas para Engenharia de Dados, Inteligência Artificial e desenvolvimento de aplicações web. Abaixo estão as principais ferramentas utilizadas e suas respectivas funções:
 
-- **Python** — Linguagem principal do projeto, utilizada para desenvolver toda a lógica da aplicação, integração entre módulos, consumo de APIs, processamento dos dados e execução dos agentes de IA.
-
-- **CrewAI** — Framework utilizado para criar e orquestrar Agentes de Inteligência Artificial, permitindo definir papéis, objetivos e responsabilidades específicas para cada agente.
-
-- **OpenAI** — Responsável pelo processamento de linguagem natural (LLMs), permitindo que os agentes interpretem os dados coletados e gerem análises e insights de forma inteligente.
-
-- **LangChain** — Biblioteca utilizada para facilitar a integração entre os modelos de linguagem, prompts e demais componentes da aplicação, tornando a comunicação com a IA mais organizada e reutilizável.
-
-- **Streamlit** — Framework utilizado para desenvolver o dashboard interativo, permitindo visualizar os dados coletados e os insights gerados pelos agentes diretamente em uma interface web.
-
-- **Pandas** — Biblioteca utilizada para manipulação, limpeza, organização e análise dos dados coletados pelas APIs e pelo processo de Web Scraping.
-
-- **Plotly** — Biblioteca utilizada para criação de gráficos interativos e visualizações que auxiliam na interpretação dos dados apresentados no dashboard.
-
-- **BeautifulSoup** — Biblioteca utilizada para realizar Web Scraping, extraindo informações de páginas da web, como notícias relacionadas ao mercado financeiro e economia.
-
-- **Requests** — Biblioteca responsável por realizar requisições HTTP às APIs utilizadas no projeto, permitindo obter indicadores econômicos, cotações de ações e demais informações externas.
-
-- **Python Dotenv** — Biblioteca utilizada para carregar as variáveis de ambiente definidas no arquivo `.env`, mantendo chaves de APIs e outras informações sensíveis protegidas e separadas do código-fonte.
-
-- **Git** — Sistema de controle de versão utilizado para registrar o histórico de alterações do projeto, facilitando o desenvolvimento e o gerenciamento das modificações realizadas.
-
-- **GitHub** — Plataforma utilizada para hospedar o repositório do projeto, permitindo o versionamento, compartilhamento do código e colaboração entre desenvolvedores.
+- **Python** — Linguagem utilizada no desenvolvimento da aplicação.
+- **CrewAI** — Framework para criação e orquestração dos Agentes de IA.
+- **OpenAI** — Modelo de IA responsável pela geração de análises e insights.
+- **LangChain** — Integra os modelos de linguagem e organiza os fluxos de IA.
+- **Streamlit** — Desenvolvimento do dashboard interativo.
+- **Pandas** — Manipulação e tratamento dos dados.
+- **Plotly** — Criação de gráficos interativos.
+- **BeautifulSoup** — Extração de informações por Web Scraping.
+- **Requests** — Consumo de APIs e requisições HTTP.
+- **Python Dotenv** — Gerenciamento das variáveis de ambiente.
+- **Git** — Controle de versão do projeto.
+- **GitHub** — Hospedagem e versionamento do código-fonte.
 
 ---
 
