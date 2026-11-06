@@ -317,9 +317,11 @@ Através dele é possível visualizar:
 - Insights gerados pelos Agentes de IA.
   
 ---
-![teste](.png)
-![teste](.png)
-![teste](.png)
+![teste](Painel_01.png)
+
+![teste](Painel_02.png)
+
+![teste](Painel_03.png)
 
 
 ---
