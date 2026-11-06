@@ -1,8 +1,6 @@
 # 🤖 Projeto Agentes IA Econômicos
 ---
 
----
-
 ## 📌 Objetivo do Projeto
 
 O **Projeto Agentes IA Econômicos** foi desenvolvido com o objetivo de automatizar a coleta, análise e apresentação de informações econômicas e financeiras utilizando Inteligência Artificial.
