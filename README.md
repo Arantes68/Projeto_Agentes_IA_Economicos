@@ -1,5 +1,7 @@
 # 🤖 Projeto Agentes IA Econômicos
 
+
+
 ## 📌 Objetivo do Projeto
 
 O **Projeto Agentes IA Econômicos** foi desenvolvido com o objetivo de automatizar a coleta, análise e apresentação de informações econômicas e financeiras utilizando Inteligência Artificial.
@@ -65,6 +67,11 @@ Este projeto foi desenvolvido utilizando tecnologias voltadas para Engenharia de
         Dashboard Interativo Streamlit
 ```
 
+# Uma das páginas utilizadas para API:
+
+![teste](Indicadores_2.png)
+
+
 ---
 
 # 📂 Estrutura do Projeto
@@ -95,9 +102,18 @@ Projeto_agentes_IA_economicos/
 └── README.md
 ```
 
+![teste](ArquiteturaProjeto.png)
+
+---
+
+# Ativando o .venv antes de começar o Projeto:
+
+![teste](Ativando_AmbienteVirtual.png)
+
 ---
 
 # 📁 Estrutura das Pastas
+
 
 ## 📂 data/
 
@@ -112,6 +128,14 @@ Nesta pasta são gravados arquivos contendo:
 
 Essa separação permite reutilizar os dados sem realizar novas consultas às APIs.
 
+![teste](Indicadores_data.png)
+
+
+![teste](Top10_Acoes_data.png)
+
+
+![teste](noticias_data.png)
+
 ---
 
 ## 📂 scripts/
@@ -122,11 +146,15 @@ Reúne todos os scripts responsáveis pela coleta, processamento e preparação 
 
 Realiza a consulta da API do Banco Central do Brasil (BACEN), coletando indicadores econômicos utilizados nas análises.
 
+![teste](Indicadores_scripts.png)
+
 ---
 
 ### acoes.py
 
 Responsável pela coleta das cotações das principais ações da Bolsa de Valores (B3) utilizando APIs financeiras.
+
+![teste](Acoes_scripts.png)
 
 ---
 
@@ -140,6 +168,9 @@ Entre as fontes utilizadas estão:
 - G1 Economia
 - InfoMoney
 - Exame
+
+
+![teste](Noticias_scripts.png)
 
 ---
 
@@ -156,6 +187,8 @@ Neste módulo são configurados:
 - Fluxo das análises.
 
 Após receberem os dados coletados, os agentes interpretam as informações e produzem insights econômicos.
+
+![teste](agentes_scripts.png)
 
 ---
 
@@ -175,6 +208,8 @@ Executa todo o pipeline da aplicação, realizando:
 
 Funciona como o ponto central da aplicação, coordenando todas as etapas do processo.
 
+![teste](main_py.png)
+
 ---
 
 ## 📂 streamlit/
@@ -185,11 +220,15 @@ Responsável pela interface gráfica do projeto.
 
 Desenvolve o dashboard interativo que apresenta os dados coletados e os insights produzidos pelos agentes.
 
+![teste](Dashboard_streamlit.png)
+
 ---
 
 ### config.toml
 
 Arquivo de configuração do Streamlit utilizado para personalizar o comportamento da aplicação.
+
+![teste](Config.png)
 
 ---
 
@@ -203,6 +242,8 @@ Instalação:
 pip install -r requirements.txt
 ```
 
+![teste](Requirements.png)
+
 ---
 
 ## 📄 requirements-lock.txt
@@ -215,11 +256,16 @@ Armazena as versões exatas das bibliotecas instaladas, garantindo reprodutibili
 
 Contém as variáveis de ambiente utilizadas pelo projeto, como chaves de APIs e outras configurações sensíveis.
 
+
+![teste](Env_apis.png)
+
 ---
 
 ## 📄 .gitignore
 
 Define arquivos e diretórios que não devem ser enviados ao GitHub, como ambiente virtual, caches e variáveis de ambiente.
+
+![teste](gitignore.png)
 
 ---
 
@@ -325,6 +371,13 @@ python main/main.py
 ```bash
 streamlit run streamlit/dashboard.py
 ```
+
+# Resultados:
+
+![teste](Resultado_01.png)
+
+
+![teste](Resultado_02.png)
 
 ---
 
