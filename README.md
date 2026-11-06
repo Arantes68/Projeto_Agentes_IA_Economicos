@@ -106,6 +106,7 @@ Projeto_agentes_IA_economicos/
 
 ---
 
+
 # Ativando o .venv antes de começar o Projeto:
 
 ![teste](Ativando_AmbienteVirtual.png)
