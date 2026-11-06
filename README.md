@@ -316,6 +316,12 @@ Através dele é possível visualizar:
 - Informações do mercado financeiro;
 - Dados coletados pelas APIs;
 - Insights gerados pelos Agentes de IA.
+  
+---
+![teste](.png)
+![teste](.png)
+![teste](.png)
+
 
 ---
 
@@ -372,13 +378,6 @@ python main/main.py
 ```bash
 streamlit run streamlit/dashboard.py
 ```
-
-# Resultados:
-
-![teste](Resultado_01.png)
-
-
-![teste](Resultado_02.png)
 
 ---
 
