@@ -252,15 +252,6 @@ Armazena as versões exatas das bibliotecas instaladas, garantindo reprodutibili
 
 ---
 
-## 📄 .env
-
-Contém as variáveis de ambiente utilizadas pelo projeto, como chaves de APIs e outras configurações sensíveis.
-
-
-![teste](Env_apis.png)
-
----
-
 ## 📄 .gitignore
 
 Define arquivos e diretórios que não devem ser enviados ao GitHub, como ambiente virtual, caches e variáveis de ambiente.
